@@ -21,7 +21,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm ci
+    - run: npm ci --no-package-lock
     - run: npm run build
     - name: Deploy
       if: github.ref == 'refs/heads/main'
