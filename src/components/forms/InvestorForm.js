@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Trash2, ChevronLeft, ChevronRight, ShoppingBag, RefreshCw } from 'lucide-react';
-import { useCart } from '../contexts/CartContext';
+import { useCart } from '../../contexts/CartContext';
 
 function CartPage() {
   const { cart, total, removeFromCart, updateQuantity, clearCart } = useCart();

@@ -1,7 +1,7 @@
 // AboutPage.js - About Page Component
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Droplet, Sun, Plant, Award, Users, Monitor, MapPin, Clock } from 'lucide-react';
+import { Droplet, Sun, Leaf, Award, Users, Monitor, MapPin, Clock } from 'lucide-react';
 
 function AboutPage() {
   // Team members data
@@ -34,7 +34,7 @@ function AboutPage() {
       description: "We're committed to using resources efficiently, minimizing environmental impact through our hydroponic systems that use 90% less water than conventional farming."
     },
     {
-      icon: <Plant className="h-8 w-8 text-green-500" />,
+      icon: <Leaf className="h-8 w-8 text-green-500" />,
       title: "Innovation",
       description: "We continuously explore new techniques, technologies, and crops to improve our systems and offer better products to our customers."
     },
