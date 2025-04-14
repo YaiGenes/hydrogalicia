@@ -1,4 +1,4 @@
-// HomePage.js - Main Landing Page
+// In HomePage.js - check that these imports are correct
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Droplet, Sun, Leaf, Award, Users } from 'lucide-react';

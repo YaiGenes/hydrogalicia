@@ -1,4 +1,4 @@
-// TestimonialSection.js - Testimonials from Customers and Partners
+// Fix for TestimonialSection.js
 import React, { useState, useEffect } from 'react';
 
 function TestimonialSection() {
