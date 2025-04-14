@@ -16,8 +16,8 @@ function ProductDetailPage() {
   // State for quantity
   const [quantity, setQuantity] = useState(1);
   
-  // State for active image (for future gallery implementation)
-  const [activeImage, setActiveImage] = useState(0);
+  // Removed unused state variables for activeImage and setActiveImage
+  // We'll reintroduce these when adding image gallery functionality
   
   // If product not found, redirect to products page
   useEffect(() => {

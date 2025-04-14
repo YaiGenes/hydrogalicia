@@ -18,7 +18,7 @@ function ContactForm() {
   // Form submission status
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
-  const [submitError, setSubmitError] = useState(false);
+  // Removed unused submitError state
   
   // Handle input changes
   const handleChange = (e) => {
@@ -118,13 +118,6 @@ function ContactForm() {
       {submitSuccess && (
         <div className="mb-6 p-4 bg-green-100 text-green-700 rounded-md">
           Thank you for your message! We'll get back to you as soon as possible.
-        </div>
-      )}
-      
-      {/* Error message */}
-      {submitError && (
-        <div className="mb-6 p-4 bg-red-100 text-red-700 rounded-md">
-          There was an error sending your message. Please try again later.
         </div>
       )}
       

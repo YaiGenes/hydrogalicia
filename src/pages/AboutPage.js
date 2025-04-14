@@ -7,22 +7,22 @@ function AboutPage() {
   // Team members data
   const teamMembers = [
     {
-      name: "Miguel Rodríguez",
+      name: "Yaiser Avila Rodríguez",
       role: "Founder & CEO",
       image: "/images/team-founder.jpg",
-      bio: "With a biology background and a master's in crop genetics, Miguel combines scientific expertise with entrepreneurial vision. His research on drought-resistant crops inspired him to explore hydroponic systems as a sustainable solution for agriculture in Galicia."
+      bio: "With a biology background and a master's in crop genetics, Yaiser combines scientific expertise with entrepreneurial vision. His research on drought-resistant crops inspired him to explore hydroponic systems as a sustainable solution for agriculture in Galicia."
     },
     {
-      name: "María García",
+      name: "Belayneh Alamirew",
       role: "Production Manager",
       image: "/images/team-production.jpg",
-      bio: "María brings 8 years of experience in greenhouse vegetable production from Almería, Spain's horticultural hub. Her hands-on expertise in hydroponics ensures optimal growing conditions and consistent high-quality yields."
+      bio: "Belayneh brings 8 years of experience in greenhouse vegetable production from Almería, Spain's horticultural hub. Her hands-on expertise in hydroponics ensures optimal growing conditions and consistent high-quality yields."
     },
     {
-      name: "Javier Fernández",
+      name: "Flavia Almaráz Ramallo",
       role: "Marketing Director",
       image: "/images/team-marketing.jpg",
-      bio: "Specializing in food marketing and local supply chains, Javier develops our brand strategy and manages relationships with retailers, restaurants, and direct consumers to ensure our products reach appreciative customers."
+      bio: "Specializing in food marketing and local supply chains, Flavia develops our brand strategy and manages relationships with retailers, restaurants, and direct consumers to ensure our products reach appreciative customers."
     }
   ];
   
@@ -76,14 +76,14 @@ function AboutPage() {
             <div className="prose prose-lg max-w-none text-gray-600">
               <p>
                 HydroGalicia began with a vision to transform food production in Galicia by combining ancient 
-                agricultural traditions with cutting-edge technology. Founded in 2022 by Miguel Rodríguez, 
+                agricultural traditions with cutting-edge technology. Founded in 2022 by Yaiser Avila Rodríguez, 
                 a biologist with a master's in crop genetics, our company grew from his research on sustainable 
                 farming methods and his deep connection to his grandparents' farm in rural Pontevedra.
               </p>
               
               <p>
                 After witnessing the potential of hydroponic systems during a conference in the Netherlands, 
-                Miguel returned to Galicia with a mission: to pioneer soilless cultivation in a region known 
+                Yaiser returned to Galicia with a mission: to pioneer soilless cultivation in a region known 
                 for its challenging growing conditions. He assembled a team of experts, combining scientific 
                 knowledge, practical growing experience, and marketing expertise to create what would become 
                 HydroGalicia.
